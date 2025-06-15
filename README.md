@@ -20,18 +20,11 @@ A Telecom X enfrenta um alto índice de perda de clientes e precisa entender os 
 
 ```plaintext
 /
-├── data/
-│   ├── raw/                # Dados originais extraídos da API/GitHub
-│   └── processed/          # Dados após limpeza e transformação
-├── notebooks/
-│   └── TelecomX_Churn_Analysis.ipynb  # Notebook principal da análise
-├── imgs/
-│   ├── churn_by_contract.png         # Exemplos de gráficos gerados
-│   └── churn_demographics.png
-├── src/
-│   ├── etl.py               # Funções de extração, transformação e limpeza de dados
-│   └── eda.py               # Funções auxiliares de análise exploratória
-├── requirements.txt         # Dependências do projeto
+
+│── TelecomX_BR.ipynb  # Notebook principal da análise
+|── telefom_churn_model.csv  #base de modelo preditivo
+|── TelecomX_dicionario # definicoes de cada coluna da base
+|── TelecomX_Data.json
 └── README.md                # Este arquivo
 /
 ````
